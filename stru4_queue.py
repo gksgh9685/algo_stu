@@ -4,7 +4,7 @@ from collections import deque  # list 대신 deque를 Queue 구현
 # deque(), append(1) :우측에 추가, appendleft(1) :좌측에 추가
 # pop() : 우측 제거, popleft() : 좌측 제거  ...
 
-# 놀이 공원 대기 줄
+# 놀이 공원 대기 num줄
 queue = deque()
 print('놀이 공원 기구 대기 시작')
 
